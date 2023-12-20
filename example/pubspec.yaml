@@ -1,0 +1,26 @@
+name: vidplayexample
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ryken_video_player:
+    path: ../
+  helpers: ^1.1.3
+  google_fonts: ^5.1.0
+  cupertino_icons: ^1.0.2
+  native_device_orientation: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
